@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -8,14 +10,26 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+
+  @override
+  void initState() {
+     Timer(Duration(seconds: 4), () {
+          // TODO: implement initState
+    });
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Text("Hello")
-        ],
-      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // TODO: implement Splash Screen Body
+          ],
+        ),
+      )
     );
   }
 }
