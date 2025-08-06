@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'package:fee_bee/view/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -15,6 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
      Timer(Duration(seconds: 4), () {
           // TODO: implement initState
+          Navigator.push(context, MaterialPageRoute(builder: (context) => BottomNavBar()));
     });
     super.initState();
   }
