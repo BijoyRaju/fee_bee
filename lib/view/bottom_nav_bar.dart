@@ -39,7 +39,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         items: const[
           BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.list),label: "Student List"),
-          BottomNavigationBarItem(icon: Icon(Icons.broadcast_on_home),label: "Person"),
+          BottomNavigationBarItem(icon: Icon(Icons.broadcast_on_home),label: "Branches"),
           BottomNavigationBarItem(icon: Icon(Icons.person),label: "Profile")
         ],
       ),

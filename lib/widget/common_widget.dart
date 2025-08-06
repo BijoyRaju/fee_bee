@@ -9,3 +9,11 @@ Widget customText(String text,{Color color = Colors.black, double fontSize = 14.
     )
   );
 }
+
+Widget customTextField(String labelText){
+  return TextField(
+    decoration: InputDecoration(
+      labelText: labelText   
+    ),
+  );
+}
